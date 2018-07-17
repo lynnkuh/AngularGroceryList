@@ -16,8 +16,8 @@
             <ul class="list-group">
                 <li *ngFor="let task of tasks" class="list-group-item">
                     <span (click)="onStrike(task)" [ngClass]="{'strike': task.strike}"> {{ task.name }} </span>
-                    <span (click)="onEdit(task)" class="glyphicon glyphicon-pencil floatright"></span>
                     <span (click)="onDelete(task)" class="glyphicon glyphicon-remove floatright paddingLeft"></span>
+                    <span (click)="onEdit(task)" class="glyphicon glyphicon-pencil floatright"></span>
                 </li>
             </ul>
         </div>

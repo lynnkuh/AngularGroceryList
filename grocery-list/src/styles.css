@@ -8,31 +8,13 @@
 .content-margin {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 16px;
+    font-size: 16px !important;
     color: blue;
- }
-
- .input-group {
-    font-size: 16px;
-    color: blue;
-    height: 32px;
- }
-
- .html {
-     font-size: 16px;
  }
 
  .row {
      color: red;
      font-size: 16px;
-     height: 32px;
  }
 
- .body {
-    background-color: blue;
-    margin: 32px;
- }
 
- .input-group-btn {
-     height: 32px;
- }
